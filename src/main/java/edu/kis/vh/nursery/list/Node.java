@@ -7,16 +7,13 @@ public class Node {
     private Node next;
 
     public Node(int i) {
-        setValue(i);
+        value = i;
     }
 
     public int getValue() {
         return value;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
 
     public edu.kis.vh.nursery.list.Node getPrev() {
         return prev;
