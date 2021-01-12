@@ -5,9 +5,9 @@ import org.junit.Test;
 
 public class RhymersJUnitTest {
 
-    public static final int IN = 888;
-    public static final int IN1 = 888;
-    public static final int TEST_VALUE = 4;
+    private static final int IN = 888;
+    private static final int IN1 = 888;
+    private static final int TEST_VALUE = 4;
 
     @Test
     public void testCountIn() {
